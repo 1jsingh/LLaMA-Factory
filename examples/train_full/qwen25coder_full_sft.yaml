@@ -1,7 +1,7 @@
 ### model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+model_name_or_path: Qwen/Qwen2.5-Coder-14B-instruct
 trust_remote_code: true
-export_hub_model_id: r2e-edits/llama3-8b-instruct-sft-v1
+export_hub_model_id: r2e-edits/qwen25coder-14b-instruct-edit-rft-v1
 
 ### method
 stage: sft
@@ -11,25 +11,26 @@ deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, 
 
 ### dataset
 # dataset: identity,alpaca_en_demo
-dataset: localize-sympynew-gpt4o-v1
-template: llama3
-cutoff_len: 20480 #2048
-max_samples: 3000
+# dataset: gpt4o-loc-maxstep10-v2
+dataset: sonnet-edit-r2e-dev_100pr_v1-maxstep30-v1
+template: qwen
+cutoff_len: 32768 #16384 #10240 #20480 #2048
+# max_samples: 10000
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/llama3-8b/full/sft
+output_dir: saves/qwen25coder-14b-instruct-edit-rft-v1/
 logging_steps: 10
-save_steps: 500
+save_steps: 100
 plot_loss: true
 overwrite_output_dir: true
 
 ### train
 per_device_train_batch_size: 1
-gradient_accumulation_steps: 2
+gradient_accumulation_steps: 1
 learning_rate: 1.0e-5
-num_train_epochs: 3.0
+num_train_epochs: 5.0
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true
@@ -43,5 +44,5 @@ eval_steps: 500
 
 ### wandb
 report_to: wandb
-run_name: test_run_llama3-8B # optional
+run_name: qwen25coder-14B # optional
 
