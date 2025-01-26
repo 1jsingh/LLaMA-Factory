@@ -1,0 +1,426 @@
++ source /data/home/jaskirats/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/data/home/jaskirats/miniconda3/bin/conda
+++ CONDA_EXE=/data/home/jaskirats/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/data/home/jaskirats/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/data/home/jaskirats/miniconda3/bin/python
+++ '[' -z x ']'
++ conda activate r2e
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate r2e
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate r2e
+++ /data/home/jaskirats/miniconda3/bin/conda shell.posix activate r2e
++ ask_conda='PS1='\''(r2e) '\''
+export PATH='\''/home/jaskirats/.cargo/bin:/home/jaskirats/.local/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/opt/slurm/bin:/opt/slurm/sbin:/opt/aws/neuron/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.nvm/versions/node/v22.5.0/bin:/data/home/jaskirats/miniconda3/envs/r2e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/slurm/sbin:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli'\''
+export CONDA_SHLVL='\''6'\''
+export CONDA_PROMPT_MODIFIER='\''(r2e) '\'''
++ eval 'PS1='\''(r2e) '\''
+export PATH='\''/home/jaskirats/.cargo/bin:/home/jaskirats/.local/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/opt/slurm/bin:/opt/slurm/sbin:/opt/aws/neuron/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.nvm/versions/node/v22.5.0/bin:/data/home/jaskirats/miniconda3/envs/r2e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/slurm/sbin:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli'\''
+export CONDA_SHLVL='\''6'\''
+export CONDA_PROMPT_MODIFIER='\''(r2e) '\'''
+++ PS1='(r2e) '
+++ export 'PATH=/home/jaskirats/.cargo/bin:/home/jaskirats/.local/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/opt/slurm/bin:/opt/slurm/sbin:/opt/aws/neuron/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.nvm/versions/node/v22.5.0/bin:/data/home/jaskirats/miniconda3/envs/r2e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/slurm/sbin:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli'
+++ PATH='/home/jaskirats/.cargo/bin:/home/jaskirats/.local/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/opt/slurm/bin:/opt/slurm/sbin:/opt/aws/neuron/bin:/usr/local/cuda-12.4/bin:/usr/local/cuda-12.4/include:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/usr/local/cuda/bin:/home/jaskirats/.nvm/versions/node/v22.5.0/bin:/data/home/jaskirats/miniconda3/envs/r2e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/slurm/bin:/opt/slurm/sbin:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli:/home/jaskirats/.vscode-server/cli/servers/Stable*/server/bin/remote-cli'
+++ export CONDA_SHLVL=6
+++ CONDA_SHLVL=6
+++ export 'CONDA_PROMPT_MODIFIER=(r2e) '
+++ CONDA_PROMPT_MODIFIER='(r2e) '
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
+++ which conda
++ echo 'Conda executable: '
++ conda info
++ local cmd=info
++ case "$cmd" in
++ __conda_exe info
++ /data/home/jaskirats/miniconda3/bin/conda info
+++ which python
++ echo 'Python executable: /data/home/jaskirats/miniconda3/envs/r2e/bin/python'
++ python --version
++ nodes=($(scontrol show hostnames "$SLURM_JOB_NODELIST"))
+++ scontrol show hostnames cr6-p548xlarge-20
++ head_node=cr6-p548xlarge-20
+++ srun --nodes=1 --ntasks=1 -w cr6-p548xlarge-20 hostname --ip-address
++ head_node_ip=10.200.161.230
++ echo 'Head node: cr6-p548xlarge-20'
++ echo 'Head node IP: 10.200.161.230'
++ echo 'Number of nodes: 1'
++ echo 'GPUs per node: 8'
++ export MASTER_ADDR=10.200.161.230
++ MASTER_ADDR=10.200.161.230
++ export MASTER_PORT=29500
++ MASTER_PORT=29500
++ export NNODES=1
++ NNODES=1
++ export NODE_RANK=0
++ NODE_RANK=0
++ export NCCL_DEBUG=INFO
++ NCCL_DEBUG=INFO
++ export NCCL_DEBUG_SUBSYS=INIT,NET
++ NCCL_DEBUG_SUBSYS=INIT,NET
++ export WANDB_PROJECT=r2e-edits
++ WANDB_PROJECT=r2e-edits
+++ python -c 'import llamafactory; import os; print(os.path.join(os.path.dirname(llamafactory.__file__), '\''launcher.py'\''))'
++ LAUNCHER_PATH=/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py
++ echo 'Launcher path: /opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py'
++ srun torchrun --nnodes=1 --nproc_per_node=8 --rdzv_id=31703 --rdzv_backend=c10d --rdzv_endpoint=10.200.161.230:29500 /opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py examples/train_full/qwen25coder_full_sft.yaml
+W0125 13:20:04.558082 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py:793] 
+W0125 13:20:04.558082 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py:793] *****************************************
+W0125 13:20:04.558082 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py:793] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0125 13:20:04.558082 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py:793] *****************************************
+[INFO|configuration_utils.py:679] 2025-01-25 13:20:28,503 >> loading configuration file config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/config.json
+[INFO|configuration_utils.py:746] 2025-01-25 13:20:28,506 >> Model config Qwen2Config {
+  "_name_or_path": "Qwen/Qwen2.5-Coder-14B-instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 48,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file vocab.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/vocab.json
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file merges.txt from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/merges.txt
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file tokenizer.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/tokenizer.json
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:28,568 >> loading file tokenizer_config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2475] 2025-01-25 13:20:28,798 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:679] 2025-01-25 13:20:29,071 >> loading configuration file config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/config.json
+[INFO|configuration_utils.py:746] 2025-01-25 13:20:29,071 >> Model config Qwen2Config {
+  "_name_or_path": "Qwen/Qwen2.5-Coder-14B-instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 48,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file vocab.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/vocab.json
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file merges.txt from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/merges.txt
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file tokenizer.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/tokenizer.json
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file special_tokens_map.json from cache at None
+[INFO|tokenization_utils_base.py:2211] 2025-01-25 13:20:29,133 >> loading file tokenizer_config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2475] 2025-01-25 13:20:29,376 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[rank3]:[W125 13:20:29.495258582 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank7]:[W125 13:20:30.514857599 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 7]  using GPU 7 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W125 13:20:30.537746929 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W125 13:20:30.588651588 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank6]:[W125 13:20:30.603061425 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 6]  using GPU 6 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank5]:[W125 13:20:30.614464554 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 5]  using GPU 5 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank4]:[W125 13:20:30.624149110 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 4]  using GPU 4 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+Converting format of dataset (num_proc=16):   0%|          | 0/614 [00:00<?, ? examples/s]Converting format of dataset (num_proc=16):  38%|███▊      | 233/614 [00:00<00:00, 2206.02 examples/s]Converting format of dataset (num_proc=16): 100%|██████████| 614/614 [00:00<00:00, 2489.55 examples/s]
+[rank0]:[W125 13:20:30.409467909 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+Running tokenizer on dataset (num_proc=16):   0%|          | 0/614 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=16):   6%|▋         | 39/614 [00:01<00:22, 25.32 examples/s]Running tokenizer on dataset (num_proc=16):  13%|█▎        | 78/614 [00:01<00:09, 55.98 examples/s]Running tokenizer on dataset (num_proc=16):  25%|██▌       | 156/614 [00:01<00:03, 121.53 examples/s]Running tokenizer on dataset (num_proc=16):  44%|████▍     | 272/614 [00:01<00:01, 248.31 examples/s]Running tokenizer on dataset (num_proc=16):  57%|█████▋    | 348/614 [00:02<00:00, 278.31 examples/s]Running tokenizer on dataset (num_proc=16):  69%|██████▉   | 424/614 [00:02<00:00, 322.86 examples/s]Running tokenizer on dataset (num_proc=16):  88%|████████▊ | 538/614 [00:02<00:00, 456.19 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 614/614 [00:02<00:00, 444.44 examples/s]Running tokenizer on dataset (num_proc=16): 100%|██████████| 614/614 [00:02<00:00, 226.74 examples/s]
+[INFO|configuration_utils.py:679] 2025-01-25 13:20:43,232 >> loading configuration file config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/config.json
+[INFO|configuration_utils.py:746] 2025-01-25 13:20:43,233 >> Model config Qwen2Config {
+  "_name_or_path": "Qwen/Qwen2.5-Coder-14B-instruct",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 13824,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 48,
+  "model_type": "qwen2",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 48,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.46.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+[INFO|modeling_utils.py:3937] 2025-01-25 13:20:43,511 >> loading weights file model.safetensors from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/model.safetensors.index.json
+[INFO|modeling_utils.py:4080] 2025-01-25 13:20:43,516 >> Detected DeepSpeed ZeRO-3: activating zero.init() for this model
+[INFO|configuration_utils.py:1096] 2025-01-25 13:20:43,527 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.08s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.07s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.09s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.11s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.11s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.10s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.10s/it]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:16,  3.30s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.17s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.18s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.17s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.18s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.19s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.19s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.20s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:06<00:12,  3.24s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.18s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.18s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.19s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.18s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.19s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.19s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.19s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:09<00:09,  3.22s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.19s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.19s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.19s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.20s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.20s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.20s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.20s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:12<00:06,  3.21s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.19s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.19s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.19s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.19s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.20s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.20s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:15<00:03,  3.20s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:16<00:03,  3.20s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.97s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.77s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.77s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:17<00:00,  2.98s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [00:19<00:00,  3.16s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:19<00:00,  3.19s/it]
+[INFO|modeling_utils.py:4800] 2025-01-25 13:21:03,035 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+[INFO|modeling_utils.py:4808] 2025-01-25 13:21:03,035 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at Qwen/Qwen2.5-Coder-14B-instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1051] 2025-01-25 13:21:03,107 >> loading configuration file generation_config.json from cache at /home/jaskirats/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-14B-instruct/snapshots/aedcc2d42b622764e023cf882b6652e646b95671/generation_config.json
+[INFO|configuration_utils.py:1096] 2025-01-25 13:21:03,107 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+[INFO|trainer.py:698] 2025-01-25 13:21:03,128 >> Using auto half precision backend
+[INFO|trainer.py:2313] 2025-01-25 13:21:08,686 >> ***** Running training *****
+[INFO|trainer.py:2314] 2025-01-25 13:21:08,686 >>   Num examples = 583
+[INFO|trainer.py:2315] 2025-01-25 13:21:08,686 >>   Num Epochs = 5
+[INFO|trainer.py:2316] 2025-01-25 13:21:08,686 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:2319] 2025-01-25 13:21:08,686 >>   Total train batch size (w. parallel, distributed & accumulation) = 8
+[INFO|trainer.py:2320] 2025-01-25 13:21:08,686 >>   Gradient Accumulation steps = 1
+[INFO|trainer.py:2321] 2025-01-25 13:21:08,686 >>   Total optimization steps = 365
+[INFO|trainer.py:2322] 2025-01-25 13:21:08,688 >>   Number of trainable parameters = 14,770,033,664
+[INFO|integration_utils.py:812] 2025-01-25 13:21:08,689 >> Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+wandb: Currently logged in as: jaskirat-singh (genai-x). Use `wandb login --relogin` to force relogin
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.4
+wandb: Run data is saved locally in /opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/wandb/run-20250125_132108-axfplq2u
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run qwen25coder-14B
+wandb: ⭐️ View project at https://wandb.ai/genai-x/r2e-edits
+wandb: 🚀 View run at https://wandb.ai/genai-x/r2e-edits/runs/axfplq2u
+  0%|          | 0/365 [00:00<?, ?it/s]  0%|          | 1/365 [00:27<2:44:18, 27.09s/it][rank2]: Traceback (most recent call last):
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank2]:     launch()
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank2]:     run_exp()
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank2]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank2]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank2]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2122, in train
+[rank2]:     return inner_training_loop(
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2474, in _inner_training_loop
+[rank2]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3572, in training_step
+[rank2]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank2]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/trainer.py", line 100, in compute_loss
+[rank2]:     loss = super().compute_loss(model, inputs, return_outputs, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3625, in compute_loss
+[rank2]:     outputs = model(**inputs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank2]:     ret_val = func(*args, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1914, in forward
+[rank2]:     loss = self.module(*inputs, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank2]:     return inner()
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 1183, in forward
+[rank2]:     loss = self.loss_function(logits, labels, self.vocab_size, **loss_kwargs)
+[rank2]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/loss/loss_utils.py", line 36, in ForCausalLMLoss
+[rank2]:     logits = logits.float()
+[rank2]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.54 GiB. GPU 2 has a total capacity of 79.10 GiB of which 5.78 GiB is free. Including non-PyTorch memory, this process has 73.25 GiB memory in use. Of the allocated memory 46.25 GiB is allocated by PyTorch, and 18.96 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank3]:     launch()
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank3]:     run_exp()
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank3]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank3]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank3]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2122, in train
+[rank3]:     return inner_training_loop(
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2474, in _inner_training_loop
+[rank3]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3572, in training_step
+[rank3]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank3]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/trainer.py", line 100, in compute_loss
+[rank3]:     loss = super().compute_loss(model, inputs, return_outputs, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3625, in compute_loss
+[rank3]:     outputs = model(**inputs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank3]:     ret_val = func(*args, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1914, in forward
+[rank3]:     loss = self.module(*inputs, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank3]:     return inner()
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 1183, in forward
+[rank3]:     loss = self.loss_function(logits, labels, self.vocab_size, **loss_kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/loss/loss_utils.py", line 46, in ForCausalLMLoss
+[rank3]:     loss = fixed_cross_entropy(shift_logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/loss/loss_utils.py", line 26, in fixed_cross_entropy
+[rank3]:     loss = nn.functional.cross_entropy(source, target, ignore_index=ignore_index, reduction=reduction)
+[rank3]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/functional.py", line 3479, in cross_entropy
+[rank3]:     return torch._C._nn.cross_entropy_loss(
+[rank3]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.83 GiB. GPU 3 has a total capacity of 79.10 GiB of which 7.12 GiB is free. Including non-PyTorch memory, this process has 71.90 GiB memory in use. Of the allocated memory 61.04 GiB is allocated by PyTorch, and 2.83 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank1]:     launch()
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank1]:     run_exp()
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 92, in run_exp
+[rank1]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/tuner.py", line 66, in _training_function
+[rank1]:     run_sft(model_args, data_args, training_args, finetuning_args, generating_args, callbacks)
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/workflow.py", line 101, in run_sft
+[rank1]:     train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2122, in train
+[rank1]:     return inner_training_loop(
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 2474, in _inner_training_loop
+[rank1]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3572, in training_step
+[rank1]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank1]:   File "/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/train/sft/trainer.py", line 100, in compute_loss
+[rank1]:     loss = super().compute_loss(model, inputs, return_outputs, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/trainer.py", line 3625, in compute_loss
+[rank1]:     outputs = model(**inputs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 18, in wrapped_fn
+[rank1]:     ret_val = func(*args, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1914, in forward
+[rank1]:     loss = self.module(*inputs, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+[rank1]:     return inner()
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in inner
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 1183, in forward
+[rank1]:     loss = self.loss_function(logits, labels, self.vocab_size, **loss_kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/loss/loss_utils.py", line 46, in ForCausalLMLoss
+[rank1]:     loss = fixed_cross_entropy(shift_logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/transformers/loss/loss_utils.py", line 26, in fixed_cross_entropy
+[rank1]:     loss = nn.functional.cross_entropy(source, target, ignore_index=ignore_index, reduction=reduction)
+[rank1]:   File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/nn/functional.py", line 3479, in cross_entropy
+[rank1]:     return torch._C._nn.cross_entropy_loss(
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 14.16 GiB. GPU 1 has a total capacity of 79.10 GiB of which 2.10 GiB is free. Including non-PyTorch memory, this process has 76.92 GiB memory in use. Of the allocated memory 64.40 GiB is allocated by PyTorch, and 4.48 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+W0125 13:21:50.850742 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1896488 closing signal SIGTERM
+W0125 13:21:50.851400 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1896492 closing signal SIGTERM
+W0125 13:21:50.852241 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1896493 closing signal SIGTERM
+W0125 13:21:50.853021 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1896494 closing signal SIGTERM
+W0125 13:21:50.853754 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1896495 closing signal SIGTERM
+E0125 13:21:59.597017 1896282 /opt/hpcaas/.mounts/fs-0301404b74c8d22fd/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 1896489) of binary: /data/home/jaskirats/miniconda3/envs/r2e/bin/python
+Traceback (most recent call last):
+  File "/data/home/jaskirats/miniconda3/envs/r2e/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/home/jaskirats/miniconda3/envs/r2e/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/opt/hpcaas/.mounts/fs-06ad2f76a5ad0b18f/jaskirats/project/r2e/r2e-edits-internal/LLaMA-Factory/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-01-25_13:21:50
+  host      : cr6-p548xlarge-20.genai-h100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 1896490)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-01-25_13:21:50
+  host      : cr6-p548xlarge-20.genai-h100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 1896491)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-01-25_13:21:50
+  host      : cr6-p548xlarge-20.genai-h100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 1896489)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: cr6-p548xlarge-20: task 0: Exited with exit code 1
+srun: Terminating StepId=126297.1

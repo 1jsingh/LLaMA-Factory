@@ -1,32 +1,36 @@
 ### model
 model_name_or_path: Qwen/Qwen2.5-Coder-14B-instruct
 trust_remote_code: true
-export_hub_model_id: r2e-edits/qwen25coder-14b-instruct-edit-rft-v1
+export_hub_model_id: r2e-edits/qwen25coder-14b-instruct-edit-rft-16k-v1
 
 ### method
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+deepspeed: examples/deepspeed/ds_z3_offload_config.json
+# deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
 
 ### dataset
 # dataset: identity,alpaca_en_demo
 # dataset: gpt4o-loc-maxstep10-v2
 dataset: sonnet-edit-r2e-dev_100pr_v1-maxstep30-v1
 template: qwen
-cutoff_len: 32768 #16384 #10240 #20480 #2048
-# max_samples: 10000
+cutoff_len: 16384 #20480 #16384 #16384 #10240 #20480 #2048
+max_samples: 10000
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/qwen25coder-14b-instruct-edit-rft-v1/
+output_dir: saves/qwen25coder-14b-instruct-edit-rft-16k-v1/
 logging_steps: 10
 save_steps: 100
 plot_loss: true
 overwrite_output_dir: true
 
 ### train
+flash_attn: fa2
+enable_liger_kernel: true
+# use_unsloth_gc: true
 per_device_train_batch_size: 1
 gradient_accumulation_steps: 1
 learning_rate: 1.0e-5
@@ -37,7 +41,7 @@ bf16: true
 ddp_timeout: 180000000
 
 ### eval
-val_size: 0.1
+val_size: 0.05
 per_device_eval_batch_size: 1
 eval_strategy: steps
 eval_steps: 500
