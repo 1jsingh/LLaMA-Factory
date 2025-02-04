@@ -3,10 +3,10 @@
 #SBATCH --job-name=qwen25coder_full_sft
 #SBATCH --output=slurm_outputs/qwen_finetune_%A_%j.out
 #SBATCH --error=slurm_outputs/qwen_finetune_%A_%j.err
-#SBATCH --time=1:59:59
+#SBATCH --time=23:59:59
 #SBATCH --mem=384G
-#SBATCH --nodes=1
-#SBATCH --gres=gpu:2
+#SBATCH --nodes=2
+#SBATCH --gres=gpu:4
 #SBATCH --cpus-per-task=64
 #SBATCH --partition=h24gpu  # Adjust based on your cluster's partition
 

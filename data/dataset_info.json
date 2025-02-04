@@ -1,4 +1,16 @@
-{  
+{ "sonnet-end2end-r2e-dev_100pr_v1_2-maxstep40-v1": {
+  "hf_hub_url": "r2e-edits/sonnet-end2end-r2e-dev_100pr_v1_2-maxstep40-v1",
+  "formatting": "sharegpt",
+  "columns": {
+    "messages": "messages"
+  },
+  "tags": {
+    "role_tag": "role",
+    "content_tag": "content",
+    "user_tag": "user",
+    "assistant_tag": "assistant",
+    "system_tag": "system"}
+  },
   "sonnet-edit-r2e-dev_100pr_v1-maxstep30-v1": {
   "hf_hub_url": "r2e-edits/sonnet-edit-r2e-dev_100pr_v1-maxstep30-v1",
   "formatting": "sharegpt",

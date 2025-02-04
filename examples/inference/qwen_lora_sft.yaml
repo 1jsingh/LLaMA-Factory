@@ -1,0 +1,7 @@
+model_name_or_path: Qwen/Qwen2.5-Coder-32B-instruct
+adapter_name_or_path: saves/qwen25coder-32b-instruct-edit-rft_lora-20k-v1
+template: qwen
+infer_backend: vllm  # choices: [huggingface, vllm]
+trust_remote_code: true
+vllm_max_lora_rank: 64
+# tensor_parallel_size: 4
