@@ -37,6 +37,7 @@ export MASTER_ADDR=$head_node_ip
 export MASTER_PORT=29500
 export NODE_RANK=$SLURM_NODEID
 export WANDB_PROJECT='r2e-edits'
+export DISABLE_VERSION_CHECK=1
 
 echo "Environment Variables:"
 echo "FORCE_TORCHRUN=$FORCE_TORCHRUN"
