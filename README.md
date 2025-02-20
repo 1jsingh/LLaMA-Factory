@@ -1,7 +1,7 @@
 # Quick Setup 
 
 ```
-conda create -f env.yaml
+conda env create -f env.yaml
 pip install --no-deps flash-attn==2.4.2
 pip install --no-deps -e . 
 llamafactory-cli train examples/train_full/qwen25coder_full_sft.yaml
