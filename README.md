@@ -1,3 +1,12 @@
+# Quick Setup 
+
+```
+conda create -f env.yaml
+pip install --no-deps flash-attn==2.4.2
+pip install --no-deps -e . 
+llamafactory-cli train examples/train_full/qwen25coder_full_sft.yaml
+```
+
 ![# LLaMA Factory](assets/logo.png)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social)](https://github.com/hiyouga/LLaMA-Factory/stargazers)
