@@ -1,5 +1,6 @@
 ### model
-model_name_or_path: Qwen/Qwen2.5-Coder-14B-instruct
+# model_name_or_path: Qwen/Qwen2.5-Coder-14B-instruct
+model_name_or_path: r2e-edits/qwen25coder-14b-instruct-end2end_sonnet_combined_maxstep40_filter15-rft-20k_bz8_epoch2_lr1en5-v1
 # model_name_or_path: Qwen/Qwen2.5-Coder-32B-instruct
 # model_name_or_path: r2e-edits/qwen25coder-32b-instruct-end2end_sonnet_combined_maxstep40-rft-16k_bz8_epoch2_lr1en5-v1
 trust_remote_code: true
@@ -26,19 +27,24 @@ deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, 
 # dataset: sonnet_32b_gpt4o_combined_20k_traj_nostepfilter
 # dataset: sonnet-end2end-r2e-dev_100pr_combined-maxstep40_15-v1
 # dataset: sonnet-end2end-r2e-dev_100pr_combined-maxstep40-v1
-dataset: 32bonpolicy_2_8_k_filter #32bonpolicy_3_6_k
+# dataset: 32bonpolicy_2_8_k_filter #32bonpolicy_3_6_k
+# dataset: sonnet-end2end-r2e-dev_100pr_combined-maxstep40_context32k_nothoughts-v1\
+dataset: testgentrain
+# dataset: sonnet-end2end-r2e-dev_100pr_combined-maxstep40-v1
 template: qwen
 cutoff_len: 20480 #16384 #14336 #16384 #20480 #16384 #20480 #16384 #16384 #10240 #20480 #2048
-max_samples: 10000
+max_samples: 100000
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
 # output_dir: saves/qwen25coder-14b-instruct-edit-rft-16k-v3/
 # output_dir: saves/qwen25coder-14b-instruct-end2end_sonnet_combined_maxstep40_random1915_equiv15-rft-20k_bz8_epoch2_lr1en5-v1
-output_dir: saves/qwen25coder-14b-instruct-end2end_32bonpolicy_3_6_k-rft-20k_bz8_epoch2_lr1en5-v1
+# output_dir: saves/qwen25coder-14b-instruct-end2end_32bonpolicy_3_6_k-rft-20k_bz8_epoch2_lr1en5-v1
+# output_dir: saves/14B_ablations_nothoughts_sonnet_combined_maxstep40_rft-20k_bz8_epoch2_lr1en5-v1
+output_dir: saves/14B_testgenverifier_rft-20k_bz8_epoch2_lr1en5-v2
 logging_steps: 10
-save_steps: 500
+save_steps: 10000
 plot_loss: true
 overwrite_output_dir: true
 
@@ -63,4 +69,5 @@ ddp_timeout: 180000000
 
 ### wandb
 report_to: wandb
-run_name: qwen25coder-14b-instruct-end2end_32bonpolicy_3_6_k-rft-20k_bz8_epoch2_lr1en5-v1
+run_name: 14B_testgenverifier_rft-20k_bz8_epoch2_lr1en5-v2
+# run_name: 14B_ablations_nothoughts_sonnet_combined_maxstep40_rft-20k_bz8_epoch2_lr1en5-v1

@@ -3,7 +3,7 @@
 #SBATCH --job-name=qwen25coder_full_sft
 #SBATCH --output=slurm_outputs/qwen_finetune_%A.out
 #SBATCH --error=slurm_outputs/qwen_finetune_%A.err
-#SBATCH --time=3:59:59
+#SBATCH --time=1:59:59
 #SBATCH --mem=384G
 #SBATCH --nodes=2
 #SBATCH --gres=gpu:4
@@ -11,7 +11,7 @@
 #SBATCH --partition=h24gpu  # Adjust based on your cluster's partition
 
 # Load CUDA module
-module load cuda/12.2.2e
+module load cuda/12.2.2
 
 # Activate Conda environment
 source /scratch3/zha439/miniconda3/bin/activate
@@ -59,6 +59,4 @@ srun torchrun \
     --rdzv_id=$RANDOM \
     --rdzv_backend=c10d \
     --rdzv_endpoint=$MASTER_ADDR:$MASTER_PORT \
-    $LAUNCHER_PATH exps_testverifier/14B_noagg.yaml
-    # $LAUNCHER_PATH examples/train_full/qwen25coder_full_sft.yaml
-    # $LAUNCHER_PATH examples/train_full/llama3_full_sft.yaml
+    $LAUNCHER_PATH examples/train_full/14B_full_sft.yaml

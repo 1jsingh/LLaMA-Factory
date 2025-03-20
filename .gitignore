@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 saves/
 slurm_outputs*
+exps_testverifier/
 
 # C extensions
 *.so
