@@ -1,4 +1,30 @@
-{"testgentrain_nonagg": {
+{ "sonnet_gpt4o_combined_491_ablation": {
+  "hf_hub_url": "r2e-edits/sonnet_gpt4o_combined_491_ablation",
+  "formatting": "sharegpt",
+  "columns": {
+    "messages": "messages"
+  },
+  "tags": {
+    "role_tag": "role",
+    "content_tag": "content",
+    "user_tag": "user",
+    "assistant_tag": "assistant",
+    "system_tag": "system"}
+  },
+  "sonnet_github_issue_traj": {
+  "hf_hub_url": "r2e-edits/sonnet_github_issue_traj",
+  "formatting": "sharegpt",
+  "columns": {
+    "messages": "messages"
+  },
+  "tags": {
+    "role_tag": "role",
+    "content_tag": "content",
+    "user_tag": "user",
+    "assistant_tag": "assistant",
+    "system_tag": "system"}
+  },
+  "testgentrain_nonagg": {
   "hf_hub_url": "r2e-edits/testgentrain_nonagg",
   "formatting": "sharegpt",
   "columns": {
